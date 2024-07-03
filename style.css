@@ -54,7 +54,7 @@
     display: flex;
     color: white;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 30px;
 }
 .green{
@@ -80,7 +80,7 @@
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items:flex-start;
+    align-items:center;
 }
 .topright img{
     width: 70%;
