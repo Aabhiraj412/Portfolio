@@ -1,0 +1,56 @@
+[
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/code.png",
+		"name": "BlueSyncGuard",
+		"description": "A Bluetooth monitoring and security tool designed to safeguard devices by continuously tracking and analyzing Bluetooth connections to prevent unauthorized access.",
+		"githubLink": "https://github.com/Aabhiraj412/BlueSyncGuard"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/hacker.png",
+		"name": "ELSA",
+		"description": "Efficient Local Support Assistant (ELSA) is a desktop voice assistant developed to streamline productivity by executing voice commands for various tasks such as launching applications, searching the web, and automating repetitive workflows.",
+		"githubLink": "https://github.com/Aabhiraj412/ELSA"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/database.png",
+		"name": "Hostel ERP",
+		"description": "A comprehensive hostel management system designed to streamline administrative tasks, manage records, and enhance efficiency for hostel operations.",
+		"githubLink": "https://github.com/Aabhiraj412/HostelERP"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
+		"name": "Daily News Mobile App",
+		"description": "A news portal app providing real-time news from various media outlets in one place. Developed using JAVA, XML, and Android Studio, the app features a clean UI for seamless user interaction.",
+		"githubLink": ""
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",
+		"name": "Stray To Stay",
+		"description": "An Android application built for the welfare of street animals, offering a social media-like platform for animal lovers to connect, share, and support. Created using JAVA, XML, and Android Studio.",
+		"githubLink": "https://github.com/Aabhiraj412/Stray-To-Stay"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/network.png",
+		"name": "SAM (Simple Assistant Model)",
+		"description": "SAM is a desktop voice assistant developed in Python to perform essential tasks such as launching applications, searching the web, answering queries, and automating routine tasks for enhanced productivity.",
+		"githubLink": "https://github.com/Aabhiraj412/SAM-Simple-Assistant-Model"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/chat.png",
+		"name": "Chatting Web-App",
+		"description": "A real-time chatting platform created using the MERN stack and Socket.io. It features a responsive front-end built with React.js, a robust backend with Node.js and Express.js, and MongoDB for database storage.",
+		"githubLink": "https://github.com/Aabhiraj412/Chat-App-Pro"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/resume.png",
+		"name": "CraftMyCV",
+		"description": "An intuitive resume builder web application developed using the MERN stack. It enables users to create professional resumes with ease, leveraging a modern and user-friendly interface.",
+		"githubLink": "https://github.com/Aabhiraj412/CraftMyCV"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/bee.png",
+		"name": "FlowBee",
+		"description": "A LinkedIn web crawler and scraper developed in Python to dynamically extract data from LinkedIn profiles and store it in a MySQL database. The tool supports analytics and can crawl over 500 unique connections at a time.",
+		"githubLink": "https://github.com/Aabhiraj412/FlowBee"
+	}
+]
