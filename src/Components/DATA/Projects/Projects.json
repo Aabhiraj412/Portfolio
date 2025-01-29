@@ -14,7 +14,7 @@
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/database.png",
 		"name": "Hostel ERP",
-		"description": "A comprehensive hostel management system designed to streamline administrative tasks, manage records, and enhance efficiency for hostel operations.",
+		"description": "Developed a full-stack hostel management system serving 500+ students and staff, resulting in a 60% reduction in administrative processing time. Backend handling 1000+ daily transactions with 99.9% uptime. It is built using MERN stack and React Native.",
 		"githubLink": "https://github.com/Aabhiraj412/Hostel-ERP"
 	},
 	{
