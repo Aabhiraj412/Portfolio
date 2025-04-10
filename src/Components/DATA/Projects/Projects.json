@@ -24,6 +24,12 @@
 		"githubLink": ""
 	},
 	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/crayon.png",
+		"name": "CrayonD",
+		"description": "CrayonD is an AI-powered digital design assistant that transforms text prompts into beautiful illustrations and UI concepts. It leverages generative AI models and a collaborative canvas to help designers brainstorm, prototype, and iterate faster.",
+		"githubLink": "https://github.com/Aabhiraj412/CrayonD"
+	},
+	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",
 		"name": "Stray To Stay",
 		"description": "An Android application built for the welfare of street animals, offering a social media-like platform for animal lovers to connect, share, and support. Created using JAVA, XML, and Android Studio.",
