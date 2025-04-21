@@ -83,7 +83,7 @@ export const Contact = () => {
 						className="text-gray-300"
 					>
 						Phone:{" "}
-						<span className="text-[#00FF66]">9919506551</span>
+						<span className="text-[#00FF66]">+91 9919506551</span>
 					</motion.p>
 				</div>
 			</div>
