@@ -8,22 +8,21 @@ export const Achivements = () => {
 		<div>
 			<Border name="achievements" />
 			<div>
-				<h2 className="text-2xl md:text-3xl text-[#00FF66] mb-6 text-center">
+				<h2 className="text-2xl md:text-3xl text-[#00FF66] mb-6 text-center font-bold">
 					My Achivements
 				</h2>
 			</div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 				{/* Soft Skills Card */}
 				<SkillCard
 					title="Certifications"
 					skills={achivements.map((skill) => skill.name)}
 				/>
-                <SkillCard
+				<SkillCard
 					title="Co-Curricular Achivements"
 					skills={activies.map((skill) => skill.name)}
 				/>
 
-				
 				{/* Basic Technical Skills Card */}
 				{/* <SkillCard
 					title="Basic Technical Skills"

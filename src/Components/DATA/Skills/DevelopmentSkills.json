@@ -1,0 +1,15 @@
+[
+	{ "name": "JavaScript & TypeScript" },
+	{ "name": "Web Development (MERN Stack)" },
+	{ "name": "App Development (React Native, Java)" },
+	{ "name": "React.js, Next.js" },
+	{ "name": "Node.js & Express.js" },
+	{ "name": "MongoDB & SQL" },
+	{ "name": "RESTful APIs & API Integration" },
+	{ "name": "Responsive Web Design" },
+	{ "name": "Web Scraping & Automation" },
+	{ "name": "Version Control (Git, GitHub)" },
+	{ "name": "Linux & CLI Tools" },
+	{ "name": "VS Code, Postman & API Testing Tools" },
+	{ "name": "3D & UI Design (Blender, Canva & Figma)" }
+]

@@ -17,7 +17,7 @@ export const Projects = () => {
 			<div>
 				<section className="mb-16">
 					<div>
-						<h2 className="text-2xl md:text-3xl text-[#00FF66] mb-6 text-center">
+						<h2 className="text-2xl md:text-3xl text-[#00FF66] mb-6 text-center font-bold">
 							My Projects
 						</h2>
 					</div>

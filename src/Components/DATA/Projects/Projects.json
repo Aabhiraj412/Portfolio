@@ -1,9 +1,9 @@
 [
 	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/code.png",
-		"name": "BlueSyncGuard",
-		"description": "A Bluetooth monitoring and security tool designed to safeguard devices by continuously tracking and analyzing Bluetooth connections to prevent unauthorized access.",
-		"githubLink": "https://github.com/Aabhiraj412/BlueSyncGuard"
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/gear.png",
+		"name": "CrayonD",
+		"description": "CrayonD is a smart Competitive Intelligence Chatbot built by Abhiraj and powered by Gemini. It helps businesses with market research, competitor analysis, and strategic insights using real-time tools and memory for accurate, concise responses.",
+		"githubLink": "https://github.com/Aabhiraj412/CrayonD"
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/hacker.png",
@@ -24,10 +24,10 @@
 		"githubLink": ""
 	},
 	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/gear.png",
-		"name": "CrayonD",
-		"description": "CrayonD is a smart Competitive Intelligence Chatbot built by Abhiraj and powered by Gemini. It helps businesses with market research, competitor analysis, and strategic insights using real-time tools and memory for accurate, concise responses.",
-		"githubLink": "https://github.com/Aabhiraj412/CrayonD"
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/code.png",
+		"name": "BlueSyncGuard",
+		"description": "A Bluetooth monitoring and security tool designed to safeguard devices by continuously tracking and analyzing Bluetooth connections to prevent unauthorized access.",
+		"githubLink": "https://github.com/Aabhiraj412/BlueSyncGuard"
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",

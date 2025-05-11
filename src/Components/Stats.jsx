@@ -32,7 +32,7 @@ export const Stats = () => {
 	return (
 		<div>
 			<Border name="statistics" />
-			<h2 className="text-2xl md:text-3xl text-[#00FF66] mb-6 text-center font-semibold">
+			<h2 className="text-2xl md:text-3xl text-[#00FF66] mb-6 text-center font-bold">
 				My LeetCode Stats
 			</h2>
 			{loading ? (

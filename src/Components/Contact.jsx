@@ -53,7 +53,7 @@ export const Contact = () => {
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 1, delay: 1 }}
-					className="text-2xl md:text-3xl text-[#00FF66] mb-4"
+					className="text-2xl md:text-3xl text-[#00FF66] mb-4 font-bold"
 				>
 					Contact Information
 				</motion.h2>
@@ -112,7 +112,7 @@ export const Contact = () => {
 						<input
 							type="text"
 							id="name"
-							name="from_name"  
+							name="from_name"
 							placeholder="Enter your name"
 							value={formData.from_name}
 							onChange={handleChange}
@@ -132,7 +132,7 @@ export const Contact = () => {
 						<input
 							type="email"
 							id="email"
-							name="email"  
+							name="email"
 							placeholder="Enter your email"
 							value={formData.email}
 							onChange={handleChange}
@@ -151,7 +151,7 @@ export const Contact = () => {
 						</label>
 						<textarea
 							id="message"
-							name="message"  
+							name="message"
 							placeholder="Write your message here"
 							value={formData.message}
 							onChange={handleChange}
