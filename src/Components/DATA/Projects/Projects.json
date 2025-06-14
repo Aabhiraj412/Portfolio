@@ -18,10 +18,10 @@
 		"githubLink": "https://github.com/Aabhiraj412/Hostel-ERP"
 	},
 	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/game-controller.png",
-		"name": "TileStorm",
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puzzle.png",
+		"name": "TileStorm - Puzzle Game",
 		"description": "TileStorm is an engaging 2D tile-matching puzzle game built in both C and C++. The C version follows a structured folder layout with modular components, while the C++ version is a single-file implementation. Developed using the Raylib graphics library, it features smooth animations, scoring mechanics, and persistent high score storage.",
-		"githubLink": "https://github.com/Aabhiraj412/TileStorm"
+		"githubLink": "https://github.com/Aabhiraj412/TileStorm-Game"
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
