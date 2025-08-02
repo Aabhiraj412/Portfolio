@@ -15,7 +15,7 @@ export const Achivements = () => {
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 				{/* Soft Skills Card */}
 				<SkillCard
-					title="Certifications"
+					title="Certificates"
 					skills={achivements.map((skill) => skill.name)}
 				/>
 				<SkillCard

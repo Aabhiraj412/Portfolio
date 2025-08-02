@@ -24,6 +24,12 @@
 		"githubLink": "https://github.com/Aabhiraj412/TileStorm-Game"
 	},
 	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/bar-chart.png",
+		"name": "Sorting Techniques Visualizer",
+		"description": "A visualization tool demonstrating 20+ sorting algorithms in C++ with real-time bar animations in the terminal. Includes step-by-step execution view and self-executable binaries for educational and demonstration purposes.",
+		"githubLink": "https://github.com/Aabhiraj412/Sorting-Techniques-Visualizer"
+	},
+	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
 		"name": "Daily News Mobile App",
 		"description": "A news portal app providing real-time news from various media outlets in one place. Developed using JAVA, XML, and Android Studio, the app features a clean UI for seamless user interaction.",
