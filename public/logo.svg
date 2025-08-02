@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <!-- Simple ARD text - plain and clean -->
+    <text x="32" y="42" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold"
+        text-anchor="middle" fill="#22c55e" letter-spacing="1">ARD</text>
+</svg>

@@ -1,15 +1,12 @@
 [
+	{ "name": "Data Structures & Algorithms (C/C++, Python & Java)" },
 	{ "name": "JavaScript & TypeScript" },
-	{ "name": "Web Development (MERN Stack)" },
-	{ "name": "App Development (React Native, Java)" },
-	{ "name": "React.js, Next.js" },
-	{ "name": "Node.js & Express.js" },
-	{ "name": "MongoDB & SQL" },
+	{ "name": "Full-Stack Web Development (MERN Stack & SpringBoot)" },
+	{ "name": "App Development (React Native & Java)" },
+	{ "name": "React.js & Next.js" },
+	{ "name": "NodeJS, ExpressJS, MongoDB & SQL" },
 	{ "name": "RESTful APIs & API Integration" },
-	{ "name": "Responsive Web Design" },
-	{ "name": "Web Scraping & Automation" },
 	{ "name": "Version Control (Git, GitHub)" },
-	{ "name": "Linux & CLI Tools" },
-	{ "name": "VS Code, Postman & API Testing Tools" },
-	{ "name": "3D & UI Design (Blender, Canva & Figma)" }
+	{ "name": "Linux, VS Code, Postman & CLI Tools" },
+	{ "name": "3D & UI Design (Blender & Figma)" }
 ]

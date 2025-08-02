@@ -3,8 +3,8 @@
 	{ "name": "LLMs & AI Agents (Hugging Face, LangChain)" },
 	{ "name": "Computer Vision (OpenCV, YOLO, Object Detection)" },
 	{ "name": "OCR & Image Understanding" },
+	{ "name": "Web Scraping & Automation" },
 	{ "name": "Machine Learning (Scikit-learn, XGBoost, Regression)" },
 	{ "name": "Deep Learning (CNN, RNN, Transfer Learning)" },
-	{ "name": "Data Analysis & Visualization (Pandas, Matplotlib, Seaborn)" },
-	{ "name": "Data Structures & Algorithms (C/C++, Python & Java)" }
+	{ "name": "Data Analysis & Visualization (Pandas, Matplotlib, Seaborn)" }
 ]

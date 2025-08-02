@@ -1,0 +1,43 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Green gradient matching ARDLogo theme -->
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#022c22;stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.8" />
+            <stop offset="50%" style="stop-color:#22c55e;stop-opacity:0.6" />
+            <stop offset="100%" style="stop-color:#16a34a;stop-opacity:0.8" />
+        </linearGradient>
+
+        <!-- Glow filter for text -->
+        <filter id="glow">
+            <feMorphology operator="dilate" radius="1" />
+            <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+            <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background circle -->
+    <circle cx="32" cy="32" r="30" fill="url(#bgGradient)" stroke="url(#ringGradient)"
+        stroke-width="2" />
+
+    <!-- Inner glow ring -->
+    <circle cx="32" cy="32" r="26" fill="none" stroke="url(#ringGradient)" stroke-width="1"
+        opacity="0.4" />
+
+    <!-- ARD Text - Large, bold, green with glow effect -->
+    <text x="32" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold"
+        text-anchor="middle" fill="#22c55e" letter-spacing="3" filter="url(#glow)">ARD</text>
+
+    <!-- Subtle accent dots in green theme -->
+    <circle cx="32" cy="12" r="1.5" fill="#22c55e" opacity="0.6" />
+    <circle cx="32" cy="52" r="1.5" fill="#16a34a" opacity="0.6" />
+    <circle cx="12" cy="32" r="1.5" fill="#10b981" opacity="0.6" />
+    <circle cx="52" cy="32" r="1.5" fill="#10b981" opacity="0.6" />
+</svg>

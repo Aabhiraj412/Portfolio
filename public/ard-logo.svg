@@ -1,0 +1,71 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Professional background gradient -->
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#111827;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#1f2937;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Border gradient -->
+        <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.5" />
+            <stop offset="33%" style="stop-color:#3b82f6;stop-opacity:0.5" />
+            <stop offset="66%" style="stop-color:#8b5cf6;stop-opacity:0.5" />
+            <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.5" />
+        </linearGradient>
+
+        <!-- Letter gradients -->
+        <linearGradient id="letterA" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="letterR" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="letterD" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Subtle glow filter -->
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="1" result="coloredBlur" />
+            <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="64" height="64" rx="12" ry="12" fill="url(#bgGradient)" />
+
+    <!-- Animated border -->
+    <rect width="64" height="64" rx="12" ry="12" fill="none" stroke="url(#borderGradient)"
+        stroke-width="1" opacity="0.6" />
+
+    <!-- Inner glow -->
+    <rect x="4" y="4" width="56" height="56" rx="8" ry="8" fill="none" stroke="url(#borderGradient)"
+        stroke-width="0.5" opacity="0.3" />
+
+    <!-- ARD Letters with professional spacing -->
+    <text x="13" y="38" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        fill="url(#letterA)" filter="url(#glow)">A</text>
+    <text x="28" y="38" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        fill="url(#letterR)" filter="url(#glow)">R</text>
+    <text x="43" y="38" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        fill="url(#letterD)" filter="url(#glow)">D</text>
+
+    <!-- Subtle accent line -->
+    <rect x="16" y="45" width="32" height="1" rx="0.5" ry="0.5" fill="url(#borderGradient)"
+        opacity="0.4" />
+
+    <!-- Corner accents for premium feel -->
+    <circle cx="12" cy="12" r="1" fill="url(#letterA)" opacity="0.6" />
+    <circle cx="52" cy="12" r="1" fill="url(#letterR)" opacity="0.6" />
+    <circle cx="32" cy="52" r="1" fill="url(#letterD)" opacity="0.6" />
+</svg>
