@@ -117,28 +117,7 @@ export const Contact = () => {
 				to_name: "Abhiraj", // The recipient name in your template
 				from_name: formData.from_name, // The sender's name
 				email: formData.email, // The sender's email (this will be the reply-to)
-				message: `Hi ${formData.from_name},
-
-Thank you for reaching out! 🙏
-
-I've received your message and really appreciate you taking the time to contact me. I'll review your message and get back to you as soon as possible, usually within 24-48 hours.
-
-In the meantime, feel free to:
-• Check out my latest projects on GitHub: https://github.com/Aabhiraj412
-• Connect with me on LinkedIn: https://www.linkedin.com/in/abhiraj-dixit-960a50244/
-• Explore my coding solutions on LeetCode: https://leetcode.com/aabhiraj412/
-
-Your original message:
-"${replaceEmojis(formData.message)}"
-
-Best regards,
-Abhiraj Dixit
-Full Stack Developer
-📧 aabhiraj412@gmail.com
-📞 +91 9919506551
-
----
-This is an automated response to confirm I received your message.`,
+				message: `"${replaceEmojis(formData.message)}"`,
 			};
 
 			const thankYouResponse = await emailjs.send(
@@ -148,21 +127,28 @@ This is an automated response to confirm I received your message.`,
 				"NeIgzMdg4oJuNe1NQ"
 			);
 
-			if (mainEmailResponse.status === 200 && thankYouResponse.status === 200) {
-				setStatus("Message sent successfully! 🎉 You'll receive a confirmation email shortly.");
-				setFormData({ 
+			if (
+				mainEmailResponse.status === 200 &&
+				thankYouResponse.status === 200
+			) {
+				setStatus(
+					"Message sent successfully! 🎉 You'll receive a confirmation email shortly."
+				);
+				setFormData({
 					to_name: "Abhiraj",
-					from_name: "", 
-					email: "", 
-					message: "" 
+					from_name: "",
+					email: "",
+					message: "",
 				});
 			} else if (mainEmailResponse.status === 200) {
-				setStatus("Message sent successfully! (Note: Confirmation email may be delayed)");
-				setFormData({ 
+				setStatus(
+					"Message sent successfully! (Note: Confirmation email may be delayed)"
+				);
+				setFormData({
 					to_name: "Abhiraj",
-					from_name: "", 
-					email: "", 
-					message: "" 
+					from_name: "",
+					email: "",
+					message: "",
 				});
 			} else {
 				setStatus("Failed to send message. Please try again later.");
@@ -211,7 +197,8 @@ This is an automated response to confirm I received your message.`,
 					<div className="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full mb-6"></div>
 					<div className="bg-gradient-to-r from-gray-800/50 to-gray-700/50 backdrop-blur-lg rounded-2xl p-6 border border-gray-600/30 shadow-2xl max-w-2xl mx-auto">
 						<p className="text-lg text-gray-300">
-							Feel free to reach out! You&apos;ll receive an automatic confirmation email. 📧
+							Feel free to reach out! You&apos;ll receive an
+							automatic confirmation email. 📧
 						</p>
 					</div>
 				</motion.div>
@@ -403,11 +390,13 @@ This is an automated response to confirm I received your message.`,
 										: "bg-red-400/10 border-red-400/30"
 								}`}
 							>
-								<p className={`font-medium ${
-									status.includes("successfully")
-										? "text-green-400"
-										: "text-red-400"
-								}`}>
+								<p
+									className={`font-medium ${
+										status.includes("successfully")
+											? "text-green-400"
+											: "text-red-400"
+									}`}
+								>
 									{status}
 								</p>
 							</motion.div>
