@@ -192,7 +192,7 @@ export const Intro = () => {
 						className={`bg-gradient-to-r ${GRADIENTS.cardBg} ${BACKDROP_BLUR.heavy} ${BORDER_RADIUS.card} ${SPACING.card} border ${COLORS.border.primary} shadow-2xl`}
 					>
 						<p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-							I'm{" "}
+							I&apos;m{" "}
 							<motion.span
 								className={`text-transparent bg-gradient-to-r ${GRADIENTS.subheading} bg-clip-text font-bold text-2xl`}
 								whileHover={{ scale: 1.05 }}
@@ -212,7 +212,7 @@ export const Intro = () => {
 							</motion.span>{" "}
 							at Maharana Pratap Engineering College, Kanpur,
 							where I am actively involved in software development
-							and AI research. As a third-year student, I've
+							and AI research. As a third-year student, I&apos;ve
 							already contributed to several impactful projects,
 							utilizing technologies such as{" "}
 							<motion.span
