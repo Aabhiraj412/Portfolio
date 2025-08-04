@@ -104,17 +104,66 @@ export const Contact = () => {
 				message: replaceEmojis(formData.message),
 			};
 
-			const response = await emailjs.send(
+			// Send the main email to you
+			const mainEmailResponse = await emailjs.send(
 				"service_avp9z2v",
-				// "template_abmi0t8",
 				"template_yfc19md",
 				processedFormData,
 				"NeIgzMdg4oJuNe1NQ"
 			);
 
-			if (response.status === 200) {
-				setStatus("Message sent successfully!");
-				setFormData({ from_name: "", email: "", message: "" });
+			// Send thank you email to the sender
+			const thankYouEmailData = {
+				to_name: "Abhiraj", // The recipient name in your template
+				from_name: formData.from_name, // The sender's name
+				email: formData.email, // The sender's email (this will be the reply-to)
+				message: `Hi ${formData.from_name},
+
+Thank you for reaching out! 🙏
+
+I've received your message and really appreciate you taking the time to contact me. I'll review your message and get back to you as soon as possible, usually within 24-48 hours.
+
+In the meantime, feel free to:
+• Check out my latest projects on GitHub: https://github.com/Aabhiraj412
+• Connect with me on LinkedIn: https://www.linkedin.com/in/abhiraj-dixit-960a50244/
+• Explore my coding solutions on LeetCode: https://leetcode.com/aabhiraj412/
+
+Your original message:
+"${replaceEmojis(formData.message)}"
+
+Best regards,
+Abhiraj Dixit
+Full Stack Developer
+📧 aabhiraj412@gmail.com
+📞 +91 9919506551
+
+---
+This is an automated response to confirm I received your message.`,
+			};
+
+			const thankYouResponse = await emailjs.send(
+				"service_avp9z2v", // Same service ID
+				"template_0dvx19m", // Your Thankyou template
+				thankYouEmailData,
+				"NeIgzMdg4oJuNe1NQ"
+			);
+
+			if (mainEmailResponse.status === 200 && thankYouResponse.status === 200) {
+				setStatus("Message sent successfully! 🎉 You'll receive a confirmation email shortly.");
+				setFormData({ 
+					to_name: "Abhiraj",
+					from_name: "", 
+					email: "", 
+					message: "" 
+				});
+			} else if (mainEmailResponse.status === 200) {
+				setStatus("Message sent successfully! (Note: Confirmation email may be delayed)");
+				setFormData({ 
+					to_name: "Abhiraj",
+					from_name: "", 
+					email: "", 
+					message: "" 
+				});
 			} else {
 				setStatus("Failed to send message. Please try again later.");
 			}
@@ -162,7 +211,7 @@ export const Contact = () => {
 					<div className="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full mb-6"></div>
 					<div className="bg-gradient-to-r from-gray-800/50 to-gray-700/50 backdrop-blur-lg rounded-2xl p-6 border border-gray-600/30 shadow-2xl max-w-2xl mx-auto">
 						<p className="text-lg text-gray-300">
-							Feel free to reach out!
+							Feel free to reach out! You&apos;ll receive an automatic confirmation email. 📧
 						</p>
 					</div>
 				</motion.div>
@@ -234,6 +283,9 @@ export const Contact = () => {
 								Send a Message
 							</h3>
 							<div className="w-16 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
+							<p className="text-sm text-gray-400 mt-2">
+								✅ Auto-confirmation email will be sent to you
+							</p>
 						</div>
 
 						{/* Form Fields */}
@@ -319,19 +371,43 @@ export const Contact = () => {
 							type="submit"
 							whileHover={{ scale: 1.02 }}
 							whileTap={{ scale: 0.98 }}
-							className="w-full mt-8 px-8 py-4 bg-gradient-to-r from-gray-800/80 to-gray-900/80 backdrop-blur-sm rounded-xl border border-green-400/50 text-white font-semibold hover:border-green-400/80 hover:bg-gradient-to-r hover:from-green-400/10 hover:to-blue-500/10 hover:text-green-400 transition-all duration-300"
+							disabled={status === "Sending..."}
+							className="w-full mt-8 px-8 py-4 bg-gradient-to-r from-gray-800/80 to-gray-900/80 backdrop-blur-sm rounded-xl border border-green-400/50 text-white font-semibold hover:border-green-400/80 hover:bg-gradient-to-r hover:from-green-400/10 hover:to-blue-500/10 hover:text-green-400 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
 						>
-							Send Message
+							{status === "Sending..." ? (
+								<span className="flex items-center justify-center">
+									<motion.div
+										className="w-5 h-5 border-2 border-green-400 border-t-transparent rounded-full mr-2"
+										animate={{ rotate: 360 }}
+										transition={{
+											duration: 1,
+											repeat: Infinity,
+											ease: "linear",
+										}}
+									/>
+									Sending...
+								</span>
+							) : (
+								"Send Message 📧"
+							)}
 						</motion.button>
 
 						{/* Status Message */}
-						{status && (
+						{status && status !== "Sending..." && (
 							<motion.div
 								initial={{ opacity: 0, y: 10 }}
 								animate={{ opacity: 1, y: 0 }}
-								className="mt-4 p-3 rounded-xl bg-green-400/10 border border-green-400/30 text-center"
+								className={`mt-4 p-3 rounded-xl border text-center ${
+									status.includes("successfully")
+										? "bg-green-400/10 border-green-400/30"
+										: "bg-red-400/10 border-red-400/30"
+								}`}
 							>
-								<p className="text-green-400 font-medium">
+								<p className={`font-medium ${
+									status.includes("successfully")
+										? "text-green-400"
+										: "text-red-400"
+								}`}>
 									{status}
 								</p>
 							</motion.div>
