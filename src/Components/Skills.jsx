@@ -21,19 +21,14 @@ export const Skills = () => {
 	const itemVariants = {
 		hidden: {
 			opacity: 0,
-			y: 30,
-			scale: 0.95,
+			y: 20,
 		},
 		visible: {
 			opacity: 1,
 			y: 0,
-			scale: 1,
 			transition: {
-				duration: 0.8,
-				ease: [0.25, 0.46, 0.45, 0.94],
-				type: "spring",
-				stiffness: 80,
-				damping: 20,
+				duration: 0.4,
+				ease: "easeOut",
 			},
 		},
 	};
@@ -50,7 +45,7 @@ export const Skills = () => {
 				<motion.div
 					initial="hidden"
 					whileInView="visible"
-					viewport={{ once: true, margin: "-100px" }}
+					viewport={{ once: true, margin: "-50px" }}
 					variants={itemVariants}
 					className="text-center mb-12"
 				>
