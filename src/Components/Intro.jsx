@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeInUp, cardHover } from "./shared/animations";
 import {
@@ -10,20 +9,6 @@ import {
 } from "./shared/designSystem";
 
 export const Intro = () => {
-	const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
-	useEffect(() => {
-		const handleMouseMove = (e) => {
-			setMousePosition({
-				x: (e.clientX / window.innerWidth) * 2 - 1,
-				y: (e.clientY / window.innerHeight) * 2 - 1,
-			});
-		};
-
-		window.addEventListener("mousemove", handleMouseMove);
-		return () => window.removeEventListener("mousemove", handleMouseMove);
-	}, []);
-
 	const linkItems = [
 		{
 			title: "GitHub",
@@ -66,84 +51,11 @@ export const Intro = () => {
 		<section
 			className={`relative min-h-screen bg-gradient-to-br ${GRADIENTS.sectionBg} overflow-hidden ${SPACING.section}`}
 		>
-			{/* Enhanced Animated Background Elements */}
-			<div className="absolute inset-0 opacity-25">
-				<motion.div
-					className="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-green-400/30 to-blue-500/30 rounded-full blur-3xl"
-					animate={{
-						scale: [1, 1.2, 1],
-						opacity: [0.3, 0.5, 0.3],
-					}}
-					transition={{
-						duration: 4,
-						repeat: Infinity,
-						ease: "easeInOut",
-					}}
-					style={{
-						transform: `translate(${mousePosition.x * 20}px, ${
-							mousePosition.y * 20
-						}px)`,
-					}}
-				/>
-				<motion.div
-					className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-purple-400/30 to-pink-500/30 rounded-full blur-3xl"
-					animate={{
-						scale: [1.2, 1, 1.2],
-						opacity: [0.4, 0.6, 0.4],
-					}}
-					transition={{
-						duration: 5,
-						repeat: Infinity,
-						ease: "easeInOut",
-					}}
-					style={{
-						transform: `translate(${mousePosition.x * -15}px, ${
-							mousePosition.y * -15
-						}px)`,
-					}}
-				/>
-				<motion.div
-					className="absolute top-1/2 left-1/2 w-72 h-72 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 rounded-full blur-3xl"
-					animate={{
-						scale: [1, 1.1, 1],
-						rotate: [0, 180, 360],
-					}}
-					transition={{
-						duration: 8,
-						repeat: Infinity,
-						ease: "linear",
-					}}
-					style={{
-						transform: `translate(-50%, -50%) translate(${
-							mousePosition.x * 10
-						}px, ${mousePosition.y * 10}px)`,
-					}}
-				/>
-			</div>
-
-			{/* Enhanced Floating Particles */}
-			<div className="absolute inset-0 overflow-hidden pointer-events-none">
-				{[...Array(20)].map((_, i) => (
-					<motion.div
-						key={i}
-						className="absolute w-1 h-1 bg-green-400/60 rounded-full"
-						animate={{
-							y: [-20, -100],
-							opacity: [0, 1, 0],
-							scale: [0, 1, 0],
-						}}
-						transition={{
-							duration: Math.random() * 3 + 2,
-							repeat: Infinity,
-							delay: Math.random() * 5,
-							ease: "easeOut",
-						}}
-						style={{
-							insetInlineStart: `${Math.random() * 100}%`,
-							insetBlockStart: `${Math.random() * 100}%`,
-						}}
-					/>
-				))}
+			{/* Optimized Static Background */}
+			<div className="absolute inset-0 opacity-20">
+				<div className="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-green-400/25 to-blue-500/25 rounded-full blur-3xl" />
+				<div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-purple-400/25 to-pink-500/25 rounded-full blur-3xl" />
+				<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-yellow-400/15 to-orange-500/15 rounded-full blur-3xl" />
 			</div>
 
 			{/* Main Content */}

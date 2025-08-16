@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Achivements } from "./Components/Achivements";
 import { Contact } from "./Components/Contact";
 import { Hero } from "./Components/Hero";
@@ -9,64 +8,12 @@ import { Skills } from "./Components/Skills";
 import { Stats } from "./Components/Stats";
 
 const App = () => {
-	const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
-	useEffect(() => {
-		const handleMouseMove = (e) => {
-			setMousePosition({
-				x: (e.clientX / window.innerWidth) * 2 - 1,
-				y: (e.clientY / window.innerHeight) * 2 - 1,
-			});
-		};
-
-		window.addEventListener("mousemove", handleMouseMove);
-		return () => window.removeEventListener("mousemove", handleMouseMove);
-	}, []);
-
 	return (
 		<div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white font-mono relative overflow-hidden">
-			{/* Global Animated Background Elements */}
-			<div className="fixed inset-0 opacity-20 pointer-events-none z-0">
-				<div
-					className="absolute top-20 left-10 w-96 h-96 bg-gradient-to-r from-green-400/30 to-blue-500/30 rounded-full blur-3xl animate-pulse"
-					style={{
-						transform: `translate(${mousePosition.x * 25}px, ${
-							mousePosition.y * 25
-						}px)`,
-					}}
-				></div>
-				<div
-					className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-r from-purple-400/30 to-pink-500/30 rounded-full blur-3xl animate-pulse"
-					style={{
-						transform: `translate(${mousePosition.x * -20}px, ${
-							mousePosition.y * -20
-						}px)`,
-					}}
-				></div>
-				<div
-					className="absolute top-1/2 left-1/2 w-72 h-72 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 rounded-full blur-3xl animate-pulse"
-					style={{
-						transform: `translate(-50%, -50%) translate(${
-							mousePosition.x * 15
-						}px, ${mousePosition.y * 15}px)`,
-					}}
-				></div>
-			</div>
-
-			{/* Global Floating Particles */}
-			<div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
-				{[...Array(20)].map((_, i) => (
-					<div
-						key={i}
-						className="absolute w-2 h-2 bg-green-400/40 rounded-full animate-bounce"
-						style={{
-							left: `${Math.random() * 100}%`,
-							top: `${Math.random() * 100}%`,
-							animationDelay: `${Math.random() * 5}s`,
-							animationDuration: `${3 + Math.random() * 4}s`,
-						}}
-					></div>
-				))}
+			{/* Optimized Static Background */}
+			<div className="fixed inset-0 opacity-15 pointer-events-none z-0">
+				<div className="absolute top-20 left-10 w-96 h-96 bg-gradient-to-r from-green-400/20 to-blue-500/20 rounded-full blur-3xl"></div>
+				<div className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-r from-purple-400/20 to-pink-500/20 rounded-full blur-3xl"></div>
 			</div>
 
 			{/* Main Content Container */}
