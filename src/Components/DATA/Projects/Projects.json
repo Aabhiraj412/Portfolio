@@ -1,9 +1,9 @@
 [
 	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/gear.png",
-		"name": "CrayonD",
-		"description": "CrayonD is a smart Competitive Intelligence Chatbot built by Abhiraj and powered by Gemini. It helps businesses with market research, competitor analysis, and strategic insights using real-time tools and memory for accurate, concise responses.",
-		"githubLink": "https://github.com/Aabhiraj412/CrayonD"
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/idea.png",
+		"name": "MangoDesk AI Summarizer",
+		"description": "AI-Powered Meeting Notes Summarizer - A full-stack MERN application that transforms meeting transcripts into professional summaries with dark mode support and email sharing capabilities. Uses Groq API with Llama models for real-time summarization.",
+		"githubLink": "https://github.com/Aabhiraj412/MangoDesk"
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/hacker.png",
@@ -30,10 +30,16 @@
 		"githubLink": "https://github.com/Aabhiraj412/Sorting-Techniques-Visualizer"
 	},
 	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
-		"name": "Daily News Mobile App",
-		"description": "A news portal app providing real-time news from various media outlets in one place. Developed using JAVA, XML, and Android Studio, the app features a clean UI for seamless user interaction.",
-		"githubLink": ""
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/gear.png",
+		"name": "CrayonD",
+		"description": "CrayonD is a smart Competitive Intelligence Chatbot built by Abhiraj and powered by Gemini. It helps businesses with market research, competitor analysis, and strategic insights using real-time tools and memory for accurate, concise responses.",
+		"githubLink": "https://github.com/Aabhiraj412/CrayonD"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/bee.png",
+		"name": "FlowBee",
+		"description": "A LinkedIn web crawler and scraper developed in Python to dynamically extract data from LinkedIn profiles and store it in a MySQL database. The tool supports analytics and can crawl over 500 unique connections at a time.",
+		"githubLink": "https://github.com/Aabhiraj412/FlowBee"
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/code.png",
@@ -42,16 +48,22 @@
 		"githubLink": "https://github.com/Aabhiraj412/BlueSyncGuard"
 	},
 	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",
-		"name": "Stray To Stay",
-		"description": "An Android application built for the welfare of street animals, offering a social media-like platform for animal lovers to connect, share, and support. Created using JAVA, XML, and Android Studio.",
-		"githubLink": "https://github.com/Aabhiraj412/Stray-To-Stay"
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
+		"name": "Daily News Mobile App",
+		"description": "A news portal app providing real-time news from various media outlets in one place. Developed using JAVA, XML, and Android Studio, the app features a clean UI for seamless user interaction.",
+		"githubLink": ""
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/network.png",
 		"name": "SAM (Simple Assistant Model)",
 		"description": "SAM is a desktop voice assistant developed in Python to perform essential tasks such as launching applications, searching the web, answering queries, and automating routine tasks for enhanced productivity.",
 		"githubLink": "https://github.com/Aabhiraj412/SAM-Simple-Assistant-Model"
+	},
+	{
+		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",
+		"name": "Stray To Stay",
+		"description": "An Android application built for the welfare of street animals, offering a social media-like platform for animal lovers to connect, share, and support. Created using JAVA, XML, and Android Studio.",
+		"githubLink": "https://github.com/Aabhiraj412/Stray-To-Stay"
 	},
 	{
 		"icon": "https://img.icons8.com/ios-filled/50/00FF66/chat.png",
@@ -64,11 +76,5 @@
 		"name": "CraftMyCV",
 		"description": "An intuitive resume builder web application developed using the MERN stack. It enables users to create professional resumes with ease, leveraging a modern and user-friendly interface.",
 		"githubLink": "https://github.com/Aabhiraj412/CraftMyCV"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/bee.png",
-		"name": "FlowBee",
-		"description": "A LinkedIn web crawler and scraper developed in Python to dynamically extract data from LinkedIn profiles and store it in a MySQL database. The tool supports analytics and can crawl over 500 unique connections at a time.",
-		"githubLink": "https://github.com/Aabhiraj412/FlowBee"
 	}
 ]
