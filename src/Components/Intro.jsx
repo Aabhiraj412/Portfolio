@@ -120,11 +120,11 @@ export const Intro = () => {
 								className="text-green-400 font-semibold"
 								whileHover={{ scale: 1.1 }}
 							>
-								8.4
+								8.3
 							</motion.span>{" "}
 							at Maharana Pratap Engineering College, Kanpur,
 							where I am actively involved in software development
-							and AI research. As a third-year student, I&apos;ve
+							and AI research. As a Final-year student, I&apos;ve
 							already contributed to several impactful projects,
 							utilizing technologies such as{" "}
 							<motion.span
