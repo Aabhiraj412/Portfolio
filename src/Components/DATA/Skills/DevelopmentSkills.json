@@ -1,12 +1,10 @@
 [
-	{ "name": "Data Structures & Algorithms (C/C++, Python & Java)" },
-	{ "name": "JavaScript & TypeScript" },
-	{ "name": "Full-Stack Web Development (MERN Stack & SpringBoot)" },
-	{ "name": "App Development (React Native & Java)" },
-	{ "name": "React.js & Next.js" },
-	{ "name": "NodeJS, ExpressJS, MongoDB & SQL" },
-	{ "name": "RESTful APIs & API Integration" },
-	{ "name": "Version Control (Git, GitHub)" },
-	{ "name": "Linux, VS Code, Postman & CLI Tools" },
-	{ "name": "3D & UI Design (Blender & Figma)" }
+  { "name": "Data Structures & Algorithms (C/C++, C#, Python & Java)" },
+  { "name": "JavaScript & TypeScript" },
+  { "name": "Full-Stack Web Development (MERN Stack & SpringBoot)" },
+  { "name": "App Development (React Native & Java)" },
+  { "name": "React.js & Next.js" },
+  { "name": "NodeJS, ExpressJS, MongoDB & SQL" },
+  { "name": "Version Control (Git, GitHub)" },
+  { "name": "Linux, VS Code, Postman & CLI Tools" }
 ]

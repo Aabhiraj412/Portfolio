@@ -60,8 +60,7 @@ export const Hero = () => {
 						className="bg-gradient-to-r from-gray-800/50 to-gray-700/50 backdrop-blur-lg rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 border border-gray-600/30 shadow-2xl mb-6 sm:mb-8 mx-2 sm:mx-0"
 					>
 						<p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed">
-							Crafting seamless code, breaking barriers, and
-							embracing the future
+							Associate Software Developer at Finastra
 						</p>
 					</motion.div>
 
@@ -78,18 +77,18 @@ export const Hero = () => {
 					>
 						{[
 							{
-								title: "Full Stack Developer",
+								title: "Fintech Backend Developer",
 								icon: "💻",
 								gradient: "from-green-400 to-blue-500",
 							},
 							{
-								title: "AI Enthusiast",
-								icon: "🤖",
+								title: "C++ · C# · ASP.NET",
+								icon: "⚙️",
 								gradient: "from-blue-400 to-purple-500",
 							},
 							{
-								title: "Security Explorer",
-								icon: "🔒",
+								title: "Build & CI/CD Automation",
+								icon: "🚀",
 								gradient: "from-purple-400 to-pink-500",
 							},
 						].map((item, index) => (

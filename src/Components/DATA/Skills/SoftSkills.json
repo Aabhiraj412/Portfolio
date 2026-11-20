@@ -1,14 +1,8 @@
 [
-	{ "name": "Self-Motivation & Confidence" },
-	{ "name": "Approachability & Interpersonal Presence" },
-	{ "name": "Verbal & Written Communication" },
-	{ "name": "Adaptability & Fast Learning" },
-	{ "name": "Leadership & Accountability" },
-	{ "name": "Team Collaboration" },
-	{ "name": "Time & Task Management" },
-	{ "name": "Analytical Thinking & Problem Solving" },
-	{ "name": "Responsibility & Dependability" },
-	{ "name": "Positive Mindset & Professionalism" },
-	{ "name": "Empathy & Emotional Intelligence" }
-  ]
-  
+  { "name": "Quick learner" },
+  { "name": "Critical thinking" },
+  { "name": "Adaptability" },
+  { "name": "Problem solving" },
+  { "name": "Self-motivated" },
+  { "name": "Team leadership" }
+]

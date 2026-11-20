@@ -1,7 +1,11 @@
 [
-    { "name": "Winner of Quiz Organised by GDG Kanpur" },
-    { "name": "Captain, Inter-School Basketball Team" },
-    { "name": "Cluster-Level Football Athlete" },
-    { "name": "Lead Organizer, College Seminars & Webinars – Engaged 500+ attendees" },
-    { "name": "Winner, District-Level Swimming Championship (Underwater Category)" }
-  ]
+  { "name": "Winner of Quiz Organised by GDG Kanpur" },
+  { "name": "Captain, Inter-School Basketball Team" },
+  { "name": "Cluster-Level Football Athlete" },
+  {
+    "name": "Lead Organizer, College Seminars & Webinars"
+  },
+  {
+    "name": "Winner, District-Level Swimming Championship (Underwater Category)"
+  }
+]

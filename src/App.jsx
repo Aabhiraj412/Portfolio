@@ -42,7 +42,7 @@ const App = () => {
 				<footer className="mt-16 py-8 px-6 md:px-12 text-center relative">
 					<div className="bg-gradient-to-r from-gray-800/50 to-gray-700/50 backdrop-blur-lg rounded-2xl p-6 border border-gray-600/30 shadow-2xl">
 						<p className="text-gray-300 text-lg">
-							&copy; 2025{" "}
+							&copy; 2026{" "}
 							<span className="text-transparent bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text font-bold">
 								Abhiraj Dixit
 							</span>

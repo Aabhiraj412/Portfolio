@@ -19,14 +19,14 @@ export const Intro = () => {
 		},
 		{
 			title: "LinkedIn",
-			link: "https://www.linkedin.com/in/abhiraj-dixit-960a50244/",
+			link: "https://www.linkedin.com/in/abhiraj-dixit/",
 			desc: "Connect with me on LinkedIn and stay updated.",
 			gradient: GRADIENTS.secondary,
 			icon: "💼",
 		},
 		{
-			title: "Leetcode",
-			link: "https://leetcode.com/aabhiraj412/",
+			title: "LeetCode",
+			link: "https://leetcode.com/u/Aabhiraj412/",
 			desc: "Solve coding challenges and improve my algorithm skills.",
 			gradient: GRADIENTS.tertiary,
 			icon: "⚡",
@@ -85,7 +85,7 @@ export const Intro = () => {
 							backgroundSize: "200% 200%",
 						}}
 					>
-						Hello Everyone,
+						About Me
 					</motion.h2>
 					<motion.div
 						className={`w-32 h-1 bg-gradient-to-r ${GRADIENTS.subheading} mx-auto rounded-full`}
@@ -111,45 +111,42 @@ export const Intro = () => {
 							>
 								Abhiraj Dixit
 							</motion.span>
-							, and I am a passionate and dedicated Full Stack
-							Developer with a keen interest in building
-							innovative solutions and exploring new technologies.
-							Currently, I am pursuing a B.Tech in Computer
-							Science & Data Science with current aggregate of{" "}
-							<motion.span
-								className="text-green-400 font-semibold"
-								whileHover={{ scale: 1.1 }}
-							>
-								8.3
-							</motion.span>{" "}
-							at Maharana Pratap Engineering College, Kanpur,
-							where I am actively involved in software development
-							and AI research. As a Final-year student, I&apos;ve
-							already contributed to several impactful projects,
-							utilizing technologies such as{" "}
-							<motion.span
-								className="text-blue-400 font-semibold"
-								whileHover={{ scale: 1.05 }}
-							>
-								MERN Stack
+							, an{" "}
+							<motion.span className="text-green-400 font-semibold" whileHover={{ scale: 1.03 }}>
+								Associate Software Developer at Finastra
 							</motion.span>
-							,{" "}
-							<motion.span
-								className="text-purple-400 font-semibold"
-								whileHover={{ scale: 1.05 }}
-							>
-								React Native
-							</motion.span>
-							, and{" "}
-							<motion.span
-								className="text-orange-400 font-semibold"
-								whileHover={{ scale: 1.05 }}
-							>
-								AI frameworks
-							</motion.span>{" "}
-							like Hugging Face.
+							. I work on fintech backend products, defect remediation, and build and deployment automation. I also build web and mobile applications with React, Node.js, and React Native.
 						</p>
 					</div>
+				</motion.div>
+
+				{/* Career and education */}
+				<motion.div
+					variants={fadeInUp}
+					className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-5xl mx-auto mb-16"
+				>
+					<article className="rounded-2xl border border-gray-600/30 bg-gradient-to-br from-gray-800/70 to-gray-900/70 p-6 md:p-8 shadow-xl">
+						<p className="text-sm uppercase tracking-[0.2em] text-green-400 mb-3">Experience</p>
+						<h3 className="text-2xl font-bold text-white">Finastra</h3>
+						<p className="text-blue-300 mt-1">Associate Software Developer</p>
+						<p className="text-sm text-gray-400 mt-1">India · July 2026 – Present</p>
+						<ul className="mt-5 space-y-2 text-sm leading-relaxed text-gray-300 list-disc pl-5">
+							<li>Develop and maintain PayplusUSA, ACH, and PARC fintech products.</li>
+							<li>Fix defects across C++ and C# codebases, including COM and ASP.NET components.</li>
+							<li>Automate builds and CI/CD workflows with Azure, GitHub Actions, and Jenkins.</li>
+						</ul>
+					</article>
+					<article className="rounded-2xl border border-gray-600/30 bg-gradient-to-br from-gray-800/70 to-gray-900/70 p-6 md:p-8 shadow-xl">
+						<p className="text-sm uppercase tracking-[0.2em] text-green-400 mb-3">Education</p>
+						<h3 className="text-xl font-bold text-white">Maharana Pratap Engineering College</h3>
+						<p className="text-gray-300 mt-2">B.Tech, Computer Science (Data Science)</p>
+						<p className="text-sm text-gray-400 mt-1">Kanpur · 2022–2026 · CGPA 8.4/10</p>
+						<div className="mt-5 border-t border-gray-600/40 pt-4 text-sm leading-relaxed text-gray-400">
+							<p>Intermediate (PCM): 85%</p>
+							<p>High school: 87%</p>
+							<p className="mt-2">Saint James Senior Secondary School, Hardoi · Intermediate 2020–2021 · High school 2018–2019</p>
+						</div>
+					</article>
 				</motion.div>
 
 				{/* Enhanced Links Grid */}

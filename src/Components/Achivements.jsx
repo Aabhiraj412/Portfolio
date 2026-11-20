@@ -69,7 +69,7 @@ export const Achivements = () => {
 				>
 					<motion.div variants={itemVariants}>
 						<SkillCard
-							title="Certificates"
+							title="Competitions & Problem Solving"
 							skills={achivements.map((skill) => skill.name)}
 							icon="🏆"
 							gradient="from-yellow-400 to-orange-500"

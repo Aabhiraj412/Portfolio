@@ -1,80 +1,99 @@
 [
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/idea.png",
-		"name": "MangoDesk AI Summarizer",
-		"description": "AI-Powered Meeting Notes Summarizer - A full-stack MERN application that transforms meeting transcripts into professional summaries with dark mode support and email sharing capabilities. Uses Groq API with Llama models for real-time summarization.",
-		"githubLink": "https://github.com/Aabhiraj412/MangoDesk"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/hacker.png",
-		"name": "ELSA",
-		"description": "Efficient Local Support Assistant (ELSA) is a desktop voice assistant developed to streamline productivity by executing voice commands for various tasks such as launching applications, searching the web, and automating repetitive workflows.",
-		"githubLink": "https://github.com/Aabhiraj412/ELSA"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/database.png",
-		"name": "Hostel ERP",
-		"description": "Developed a full-stack hostel management system serving 500+ students and staff, resulting in a 60% reduction in administrative processing time. Backend handling 1000+ daily transactions with 99.9% uptime. It is built using MERN stack and React Native.",
-		"githubLink": "https://github.com/Aabhiraj412/Hostel-ERP"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puzzle.png",
-		"name": "TileStorm - Puzzle Game",
-		"description": "TileStorm is an engaging 2D tile-matching puzzle game built in both C and C++. Developed using the Raylib graphics library, it features smooth animations, scoring mechanics, and persistent high score storage.",
-		"githubLink": "https://github.com/Aabhiraj412/TileStorm-Game"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/bar-chart.png",
-		"name": "Sorting Techniques Visualizer",
-		"description": "A visualization tool demonstrating 20+ sorting algorithms in C++ with real-time bar animations in the terminal. Includes step-by-step execution view and self-executable binaries for educational and demonstration purposes.",
-		"githubLink": "https://github.com/Aabhiraj412/Sorting-Techniques-Visualizer"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/gear.png",
-		"name": "CrayonD",
-		"description": "CrayonD is a smart Competitive Intelligence Chatbot built by Abhiraj and powered by Gemini. It helps businesses with market research, competitor analysis, and strategic insights using real-time tools and memory for accurate, concise responses.",
-		"githubLink": "https://github.com/Aabhiraj412/CrayonD"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/bee.png",
-		"name": "FlowBee",
-		"description": "A LinkedIn web crawler and scraper developed in Python to dynamically extract data from LinkedIn profiles and store it in a MySQL database. The tool supports analytics and can crawl over 500 unique connections at a time.",
-		"githubLink": "https://github.com/Aabhiraj412/FlowBee"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/code.png",
-		"name": "BlueSyncGuard",
-		"description": "A Bluetooth monitoring and security tool designed to safeguard devices by continuously tracking and analyzing Bluetooth connections to prevent unauthorized access.",
-		"githubLink": "https://github.com/Aabhiraj412/BlueSyncGuard"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
-		"name": "Daily News Mobile App",
-		"description": "A news portal app providing real-time news from various media outlets in one place. Developed using JAVA, XML, and Android Studio, the app features a clean UI for seamless user interaction.",
-		"githubLink": ""
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/network.png",
-		"name": "SAM (Simple Assistant Model)",
-		"description": "SAM is a desktop voice assistant developed in Python to perform essential tasks such as launching applications, searching the web, answering queries, and automating routine tasks for enhanced productivity.",
-		"githubLink": "https://github.com/Aabhiraj412/SAM-Simple-Assistant-Model"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",
-		"name": "Stray To Stay",
-		"description": "An Android application built for the welfare of street animals, offering a social media-like platform for animal lovers to connect, share, and support. Created using JAVA, XML, and Android Studio.",
-		"githubLink": "https://github.com/Aabhiraj412/Stray-To-Stay"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/chat.png",
-		"name": "Chatting Web-App",
-		"description": "A real-time chatting platform created using the MERN stack and Socket.io. It features a responsive front-end built with React.js, a robust backend with Node.js and Express.js, and MongoDB for database storage.",
-		"githubLink": "https://github.com/Aabhiraj412/Chat-App-Pro"
-	},
-	{
-		"icon": "https://img.icons8.com/ios-filled/50/00FF66/resume.png",
-		"name": "CraftMyCV",
-		"description": "An intuitive resume builder web application developed using the MERN stack. It enables users to create professional resumes with ease, leveraging a modern and user-friendly interface.",
-		"githubLink": "https://github.com/Aabhiraj412/CraftMyCV"
-	}
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/database.png",
+    "name": "Hostel ERP",
+    "description": "Hostel management system with a React web interface and React Native mobile app. Added JWT authentication and role-based access for students, administrators, and staff. MongoDB schema optimization reduced response time by 40%, while task automation cut administrative processing time by 60%. Stack: React, Node.js, Express, MongoDB, React Native.",
+    "githubLink": "https://github.com/Aabhiraj412/Hostel-ERP"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/car.png",
+    "name": "PARKIT - AI-Based Smart Parking Automation System",
+    "description": "Major B.Tech project focused on developing an AI-powered smart parking automation system using computer vision. Implements real-time parking space detection and occupancy monitoring from video feeds using OpenCV and image processing techniques. Features interactive parking-space marking, automated availability detection, color-coded visualization, and real-time available-slot counting. Stack: Python, OpenCV, NumPy, CVZone, Computer Vision.",
+    "githubLink": "https://github.com/Aabhiraj412/AI-Based-Smart-Parking-Automation-System"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/bee.png",
+    "name": "BlueSyncGuard",
+    "description": "Open-source Python application for Bluetooth security monitoring. Uses native device APIs for real-time scanning and connection monitoring, with automated security responses to help protect user data. Stack: Python, Bluetooth API.",
+    "githubLink": "https://github.com/Aabhiraj412/BlueSyncGuard"
+  },
+
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/youtube-play.png",
+    "name": "CrazzyDocs - AI-Powered YouTube Shorts Studio",
+    "description": "An AI-powered autonomous YouTube content creation and publishing platform. Automates the complete production pipeline, including AI script generation, voiceovers, visual composition, video rendering, scheduling, and YouTube publishing. Features an intelligent production scheduler, recovery mechanisms, automated retries, operational monitoring, and a local control center. Stack: Python, JavaScript, Node.js, FFmpeg, Motion Canvas, Gemini API, YouTube Data API.",
+    "githubLink": ""
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/gear.png",
+    "name": "CrayonD",
+    "description": "Interactive business intelligence app with real-time data processing and analytics. Integrated the Gemini API and WebSockets; responsive React UI components improved code reusability and maintainability by 30%. Stack: React.js, Node.js, Gemini API, WebSockets.",
+    "githubLink": "https://github.com/Aabhiraj412/CrayonD"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/leaf.png",
+    "name": "Krashi Setu",
+    "description": "A hackathon project focused on developing a technology-driven solution for the agricultural domain.",
+    "githubLink": ""
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/idea.png",
+    "name": "MangoDesk AI Summarizer",
+    "description": "AI-Powered Meeting Notes Summarizer - A full-stack MERN application that transforms meeting transcripts into professional summaries with dark mode support and email sharing capabilities. Uses Groq API with Llama models for real-time summarization.",
+    "githubLink": "https://github.com/Aabhiraj412/MangoDesk"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/hacker.png",
+    "name": "ELSA",
+    "description": "Efficient Local Support Assistant (ELSA) is a desktop voice assistant developed to streamline productivity by executing voice commands for various tasks such as launching applications, searching the web, and automating repetitive workflows.",
+    "githubLink": "https://github.com/Aabhiraj412/ELSA"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/puzzle.png",
+    "name": "TileStorm - Puzzle Game",
+    "description": "TileStorm is an engaging 2D tile-matching puzzle game built in both C and C++. Developed using the Raylib graphics library, it features smooth animations, scoring mechanics, and persistent high score storage.",
+    "githubLink": "https://github.com/Aabhiraj412/TileStorm-Game"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/bar-chart.png",
+    "name": "Sorting Techniques Visualizer",
+    "description": "A visualization tool demonstrating 20+ sorting algorithms in C++ with real-time bar animations in the terminal. Includes step-by-step execution view and self-executable binaries for educational and demonstration purposes.",
+    "githubLink": "https://github.com/Aabhiraj412/Sorting-Techniques-Visualizer"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/bee.png",
+    "name": "FlowBee",
+    "description": "A LinkedIn web crawler and scraper developed in Python to dynamically extract data from LinkedIn profiles and store it in a MySQL database. The tool supports analytics and can crawl over 500 unique connections at a time.",
+    "githubLink": "https://github.com/Aabhiraj412/FlowBee"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/news.png",
+    "name": "Daily News Mobile App",
+    "description": "A news portal app providing real-time news from various media outlets in one place. Developed using JAVA, XML, and Android Studio, the app features a clean UI for seamless user interaction.",
+    "githubLink": ""
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/network.png",
+    "name": "SAM (Simple Assistant Model)",
+    "description": "SAM is a desktop voice assistant developed in Python to perform essential tasks such as launching applications, searching the web, answering queries, and automating routine tasks for enhanced productivity.",
+    "githubLink": "https://github.com/Aabhiraj412/SAM-Simple-Assistant-Model"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/puppy.png",
+    "name": "Stray To Stay",
+    "description": "An Android application built for the welfare of street animals, offering a social media-like platform for animal lovers to connect, share, and support. Created using JAVA, XML, and Android Studio.",
+    "githubLink": "https://github.com/Aabhiraj412/Stray-To-Stay"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/chat.png",
+    "name": "Chatting Web-App",
+    "description": "A real-time chatting platform created using the MERN stack and Socket.io. It features a responsive front-end built with React.js, a robust backend with Node.js and Express.js, and MongoDB for database storage.",
+    "githubLink": "https://github.com/Aabhiraj412/Chat-App-Pro"
+  },
+  {
+    "icon": "https://img.icons8.com/ios-filled/50/00FF66/resume.png",
+    "name": "CraftMyCV",
+    "description": "An intuitive resume builder web application developed using the MERN stack. It enables users to create professional resumes with ease, leveraging a modern and user-friendly interface.",
+    "githubLink": "https://github.com/Aabhiraj412/CraftMyCV"
+  }
 ]

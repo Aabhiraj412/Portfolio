@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Border } from "./Border";
 import { SkillCard } from "./Cards/SkillCard";
-import softSkills from "./DATA/Skills/SoftSkills.json";
 import devlopmentSkills from "./DATA/Skills/DevelopmentSkills.json";
 import aiml from "./DATA/Skills/AI-ML-GenAI-DataScienceSkills.json";
 
@@ -60,17 +59,8 @@ export const Skills = () => {
 					whileInView="visible"
 					viewport={{ once: true, margin: "-100px" }}
 					variants={containerVariants}
-					className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto"
+					className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto"
 				>
-					<motion.div variants={itemVariants}>
-						<SkillCard
-							title="Professional Strengths"
-							skills={softSkills.map((skill) => skill.name)}
-							icon="💡"
-							gradient="from-green-400 to-blue-500"
-						/>
-					</motion.div>
-
 					<motion.div variants={itemVariants}>
 						<SkillCard
 							title="App & Web Development Skills"
